@@ -1,0 +1,23 @@
+while (!ordinaryCustomers.isEmpty()) { priorityCustomers.add(ordinaryCustomers.remove()); }:
+
+"Rachel" is moved from the ordinary queue to the priority queue.
+"Pratima" is moved from the ordinary queue to the priority queue.
+"Mohammad" is moved from the ordinary queue to the priority queue.
+"Jasur" is moved from the ordinary queue to the priority queue.
+"Shyan" is moved from the ordinary queue to the priority queue.
+
+while (!priorityCustomers.isEmpty()) { System.out.println(priorityCustomers.remove()); }:
+
+"Rachel" is removed from the priority queue and printed.
+"Pratima" is removed from the priority queue and printed.
+"Mohammad" is removed from the priority queue and printed.
+"Jasur" is removed from the priority queue and printed.
+"Shyan" is removed from the priority queue and printed.
+
+final output:
+Pranoj
+Rachel
+Pratima
+Mohammad
+Jasur
+Shyan

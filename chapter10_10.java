@@ -25,7 +25,9 @@ public class chapter10_10 {
         }
         time1 = System.nanoTime();
         System.out.println(list.getClass());
-        System.out.printf("for length = %d, %s = %, d ns\n", length, operationType, ((time1-time0) / length));
+
+        //-100 ns for the for loop and nanotime overhead to be removed
+        System.out.printf("for length = %d, %s = %, d ns\n", length, operationType, (((time1-time0) / length) - 100));
     }
 
     private static int[] getIndices(int length) {
